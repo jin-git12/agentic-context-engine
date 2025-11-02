@@ -60,7 +60,12 @@ demos = [
     "playwright>=1.40.0",
 ]
 langchain = [
-    "langchain-litellm>=0.2.0",
+    "langchain>=1.0.0",
+    "langchain-core>=1.0.0",
+    "langgraph>=1.0.0",
+]
+langchain-mcp = [
+    "langchain-mcp-adapters>=0.1.0",
 ]
 transformers = [
     "transformers>=4.30.0",
@@ -83,7 +88,10 @@ all = [
     "pandas>=2.0.0",
     "openpyxl>=3.0.0",
     "playwright>=1.40.0",
-    "langchain-litellm>=0.2.0",
+    "langchain>=1.0.0",
+    "langchain-core>=1.0.0",
+    "langgraph>=1.0.0",
+    "langchain-mcp-adapters>=0.1.0",
     "transformers>=4.30.0",
     "torch>=2.0.0",
     "accelerate>=0.20.0",
